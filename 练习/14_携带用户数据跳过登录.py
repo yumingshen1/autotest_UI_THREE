@@ -23,3 +23,4 @@ driver.get(r'http://172.18.31.26:8601/jobinfo?jobGroup=16')
 time.sleep(2)
 
 driver.quit()
+
