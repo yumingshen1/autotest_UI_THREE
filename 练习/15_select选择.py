@@ -35,11 +35,11 @@ if flage == 2:
     Select(sele_ele).select_by_index(18) #下标0开始 方式一
     Select(sele_ele).select_by_value('16') #value值  方式二
     Select(sele_ele).select_by_visible_text('armani任务')  #文本 方式三
-#todo 反选  获取到外层元素，然后获取列表所有元素的共同元素返回一个列表，然后循环选择，之后使用 deselect_all()
+#todo 反选  获取到外层元素，然后获取列表所有元素的共同元素返回一个列表，然后循环选择，之后使用 deselect_all(),
 
 #选择第四页
 driver.find_element_by_css_selector('ul.pagination>:nth-last-child(2)>[href*="#"]').click()
-time.sleep(2)
+time.sleep(5)
 
 #下拉框
 xia_sele = "body > div:nth-child(2) > div:nth-child(4) > section:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(4) > td:nth-child(7) > div:nth-child(1) > button:nth-child(2)"

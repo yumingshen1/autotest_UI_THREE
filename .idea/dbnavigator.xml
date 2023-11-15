@@ -31,7 +31,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="1b14e2ac-de7b-4c53-8807-9c9a576aeb0b">
-      <console name="solar" type="STANDARD" schema="solar" session="Main"><![CDATA[select  * from solar_borrow where uid = 48002055]]></console>
+      <console name="solar" type="STANDARD" schema="solar" session="Main"><![CDATA[select  * from solar_borrow where uid = 48002249]]></console>
     </connection>
     <connection id="6f65b4aa-11e5-4d46-a10b-cbafa84bc742">
       <console name="hermes" type="STANDARD" schema="hermes" session="Main"><![CDATA[#所有单笔单批的产品。
