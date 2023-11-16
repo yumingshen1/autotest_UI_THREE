@@ -6,6 +6,10 @@
 '''
 新文件
 '''
+from selenium import webdriver
+import time
+driver = webdriver.Chrome()
+
 print('selenium特性')
 if __name__ == '__main__':
     pass
