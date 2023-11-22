@@ -19,8 +19,8 @@ driver.get(r'file://'+path)
 time.sleep(2)
 #value以pro开头的
 ele1 = driver.find_element_by_xpath('//*[starts-with(@value,"pro")]')
-# ele1.click()
-
+ele1.click()
+print('ceshi')
 
 #value属性包含 conf
 ele2 = driver.find_element_by_xpath('//*[contains(@value,"conf")]')
